@@ -1,0 +1,34 @@
+{
+  "name": "my-first-test-plugin-some-uniq-name-qwerty",
+  "version": "1.0.3",
+  "description": "Test",
+  "main": "./dist/index.js",
+  "private": false,
+  "scripts": {
+    "dev": "vue serve RegexHelper.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "dependencies": {
+    "@onereach/ui": "^2.0.34",
+    "babel-runtime": "^6.26.0",
+    "keen-ui": "^1.2.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "regexp-tree": "^0.1.21",
+    "rollup-plugin-vue": "^5.1.6",
+    "sass-loader": "^8.0.2",
+    "unraw": "^2.0.0",
+    "vue": "^2.6.6",
+    "vuex": "^3.1.1"
+  },
+  "author": "Skyfler",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "^4.9.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
